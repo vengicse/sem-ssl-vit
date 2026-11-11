@@ -1,0 +1,20 @@
+{
+ "ours": {
+  "n": 237,
+  "ccc_log_nm": 0.954,
+  "ccc_log_px": 0.451,
+  "spearman_px": 0.485,
+  "bias_log10": 0.059,
+  "loa_log10": 0.399,
+  "sd_log_scale": 0.701
+ },
+ "dino_in": {
+  "n": 271,
+  "ccc_log_nm": 0.954,
+  "ccc_log_px": 0.464,
+  "spearman_px": 0.522,
+  "bias_log10": 0.068,
+  "loa_log10": 0.4,
+  "sd_log_scale": 0.701
+ }
+}

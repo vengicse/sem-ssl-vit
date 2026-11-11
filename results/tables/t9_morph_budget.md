@@ -1,0 +1,7 @@
+**Instance F1@0.5 (%) versus the number of labelled synthetic masks used to train the segmentation decoder.**
+
+| Features   | F1 @ 8 masks   | F1 @ 32 masks   | F1 @ 128 masks   |
+|:-----------|:---------------|:----------------|:-----------------|
+| scratch    | 48.85 ± 0.31   | 50.89 ± 0.15    | 50.94 ± 0.22     |
+| dino_in    | 42.89 ± 0.18   | 54.83 ± 0.24    | 55.24 ± 0.89     |
+| ours       | 43.31 ± 0.30   | 54.28 ± 0.52    | 55.62 ± 1.10     |

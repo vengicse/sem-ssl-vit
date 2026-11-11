@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/
+data_*/
+ckpt_smoke/
+results_smoke/
+*.tgz

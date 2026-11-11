@@ -1,0 +1,985 @@
+{
+ "mcnemar": {
+  "ResNet-50|0.01|0": {
+   "ours_only": 323,
+   "other_only": 148,
+   "p": 4.978952297112893e-16,
+   "acc_ours": 82.4912615189069,
+   "acc_other": 76.930409914204
+  },
+  "ResNet-50|0.05|0": {
+   "ours_only": 232,
+   "other_only": 94,
+   "p": 1.306908489469892e-14,
+   "acc_ours": 89.25961232920243,
+   "acc_other": 84.87448363520814
+  },
+  "ResNet-50|0.1|0": {
+   "ours_only": 199,
+   "other_only": 84,
+   "p": 6.332295610828597e-12,
+   "acc_ours": 90.34000635525898,
+   "acc_other": 86.68573244359708
+  },
+  "Inception-v3|0.01|0": {
+   "ours_only": 429,
+   "other_only": 122,
+   "p": 5.057431334669256e-41,
+   "acc_ours": 82.4912615189069,
+   "acc_other": 72.73593898951383
+  },
+  "Inception-v3|0.05|0": {
+   "ours_only": 271,
+   "other_only": 81,
+   "p": 4.516671993482831e-25,
+   "acc_ours": 89.25961232920243,
+   "acc_other": 83.22211630123928
+  },
+  "EfficientNet-B0|0.01|0": {
+   "ours_only": 582,
+   "other_only": 137,
+   "p": 4.234336163577599e-66,
+   "acc_ours": 82.4912615189069,
+   "acc_other": 68.35081029551954
+  },
+  "EfficientNet-B0|0.05|0": {
+   "ours_only": 366,
+   "other_only": 98,
+   "p": 2.0129337627268534e-37,
+   "acc_ours": 89.25961232920243,
+   "acc_other": 80.743565300286
+  },
+  "ConvNeXt-T|0.01|0": {
+   "ours_only": 250,
+   "other_only": 154,
+   "p": 2.0578530822850754e-06,
+   "acc_ours": 82.4912615189069,
+   "acc_other": 79.4407372100413
+  },
+  "ConvNeXt-T|0.05|0": {
+   "ours_only": 173,
+   "other_only": 89,
+   "p": 2.3335898606095391e-07,
+   "acc_ours": 89.25961232920243,
+   "acc_other": 86.59040355894503
+  },
+  "ViT-S-16_sup_IN|0.01|0": {
+   "ours_only": 261,
+   "other_only": 144,
+   "p": 6.494965807953006e-09,
+   "acc_ours": 82.4912615189069,
+   "acc_other": 78.77343501747697
+  },
+  "ViT-S-16_sup_IN|0.01|1": {
+   "ours_only": 272,
+   "other_only": 121,
+   "p": 1.8323647101833307e-14,
+   "acc_ours": 83.76231331426756,
+   "acc_other": 78.96409278678107
+  },
+  "ViT-S-16_sup_IN|0.05|0": {
+   "ours_only": 163,
+   "other_only": 94,
+   "p": 1.992699934716375e-05,
+   "acc_ours": 89.25961232920243,
+   "acc_other": 87.06704798220527
+  },
+  "ViT-S-16_sup_IN|0.05|1": {
+   "ours_only": 144,
+   "other_only": 89,
+   "p": 0.0003815656965002515,
+   "acc_ours": 88.21099459802987,
+   "acc_other": 86.46329837940895
+  },
+  "ViT-S-16_sup_IN|0.1|0": {
+   "ours_only": 137,
+   "other_only": 82,
+   "p": 0.0002459243836646219,
+   "acc_ours": 90.34000635525898,
+   "acc_other": 88.59231013663806
+  },
+  "ViT-S-16_sup_IN|1.0|0": {
+   "ours_only": 87,
+   "other_only": 59,
+   "p": 0.025111377256256825,
+   "acc_ours": 94.97934540832539,
+   "acc_other": 94.08960915157293
+  },
+  "DINO_ViT-S-16_IN|0.01|0": {
+   "ours_only": 186,
+   "other_only": 97,
+   "p": 1.3409486333913324e-07,
+   "acc_ours": 82.4912615189069,
+   "acc_other": 79.66317127422943
+  },
+  "DINO_ViT-S-16_IN|0.01|1": {
+   "ours_only": 205,
+   "other_only": 100,
+   "p": 1.8144991518735281e-09,
+   "acc_ours": 83.76231331426756,
+   "acc_other": 80.42580235144582
+  },
+  "DINO_ViT-S-16_IN|0.05|0": {
+   "ours_only": 122,
+   "other_only": 88,
+   "p": 0.022546716849381178,
+   "acc_ours": 89.25961232920243,
+   "acc_other": 88.17921830314586
+  },
+  "DINO_ViT-S-16_IN|0.05|1": {
+   "ours_only": 88,
+   "other_only": 78,
+   "p": 0.4849565608422813,
+   "acc_ours": 88.21099459802987,
+   "acc_other": 87.8932316491897
+  },
+  "DINO_ViT-S-16_IN|0.1|0": {
+   "ours_only": 103,
+   "other_only": 75,
+   "p": 0.04269434685440968,
+   "acc_ours": 90.34000635525898,
+   "acc_other": 89.45027009850651
+  },
+  "DINO_ViT-S-16_IN|1.0|0": {
+   "ours_only": 47,
+   "other_only": 64,
+   "p": 0.12847543208575968,
+   "acc_ours": 94.97934540832539,
+   "acc_other": 95.51954242135366
+  },
+  "DINO-generic_SEM|0.01|0": {
+   "ours_only": 102,
+   "other_only": 121,
+   "p": 0.227982901576848,
+   "acc_ours": 82.4912615189069,
+   "acc_other": 83.09501112170321
+  },
+  "DINO-generic_SEM|0.01|1": {
+   "ours_only": 128,
+   "other_only": 99,
+   "p": 0.06287060424787491,
+   "acc_ours": 83.76231331426756,
+   "acc_other": 82.84080076263108
+  },
+  "DINO-generic_SEM|0.05|0": {
+   "ours_only": 74,
+   "other_only": 89,
+   "p": 0.2727839165101227,
+   "acc_ours": 89.25961232920243,
+   "acc_other": 89.73625675246267
+  },
+  "DINO-generic_SEM|0.05|1": {
+   "ours_only": 58,
+   "other_only": 62,
+   "p": 0.7843281773322764,
+   "acc_ours": 88.21099459802987,
+   "acc_other": 88.33809977756594
+  },
+  "DINO-generic_SEM|0.1|0": {
+   "ours_only": 68,
+   "other_only": 79,
+   "p": 0.4095804990264017,
+   "acc_ours": 90.34000635525898,
+   "acc_other": 90.68954559898316
+  },
+  "DINO-generic_SEM|1.0|0": {
+   "ours_only": 47,
+   "other_only": 65,
+   "p": 0.10778227965475419,
+   "acc_ours": 94.97934540832539,
+   "acc_other": 95.55131871623769
+  }
+ },
+ "ours_recall_0.01": [
+  87.3,
+  27.3,
+  35.7,
+  79.7,
+  86.9,
+  87.1,
+  86.5,
+  24.0,
+  89.1,
+  75.1
+ ],
+ "ours_macroF1_0.01": 69.54,
+ "ours_cm_0.01": [
+  [
+   124,
+   0,
+   1,
+   3,
+   6,
+   6,
+   2,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   6,
+   0,
+   3,
+   6,
+   0,
+   5,
+   0,
+   0,
+   2
+  ],
+  [
+   2,
+   0,
+   15,
+   0,
+   4,
+   12,
+   0,
+   1,
+   8,
+   0
+  ],
+  [
+   0,
+   2,
+   1,
+   535,
+   6,
+   2,
+   111,
+   0,
+   1,
+   13
+  ],
+  [
+   12,
+   1,
+   0,
+   16,
+   483,
+   8,
+   12,
+   2,
+   11,
+   11
+  ],
+  [
+   4,
+   1,
+   5,
+   3,
+   15,
+   465,
+   16,
+   4,
+   15,
+   6
+  ],
+  [
+   0,
+   0,
+   1,
+   63,
+   4,
+   13,
+   578,
+   0,
+   4,
+   5
+  ],
+  [
+   5,
+   0,
+   0,
+   1,
+   5,
+   1,
+   7,
+   6,
+   0,
+   0
+  ],
+  [
+   5,
+   0,
+   2,
+   1,
+   5,
+   0,
+   0,
+   0,
+   115,
+   1
+  ],
+  [
+   5,
+   0,
+   1,
+   8,
+   2,
+   4,
+   66,
+   1,
+   2,
+   269
+  ]
+ ],
+ "ours_recall_0.1": [
+  95.8,
+  59.1,
+  54.8,
+  93.4,
+  93.3,
+  91.6,
+  90.3,
+  84.0,
+  89.9,
+  82.7
+ ],
+ "ours_macroF1_0.1": 85.0,
+ "ours_cm_0.1": [
+  [
+   136,
+   0,
+   0,
+   1,
+   1,
+   3,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   1,
+   13,
+   0,
+   3,
+   5,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   23,
+   0,
+   7,
+   4,
+   0,
+   0,
+   8,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   627,
+   9,
+   1,
+   28,
+   0,
+   0,
+   5
+  ],
+  [
+   11,
+   0,
+   0,
+   3,
+   519,
+   8,
+   6,
+   2,
+   4,
+   3
+  ],
+  [
+   4,
+   0,
+   6,
+   4,
+   10,
+   489,
+   14,
+   1,
+   4,
+   2
+  ],
+  [
+   1,
+   0,
+   1,
+   48,
+   4,
+   10,
+   603,
+   0,
+   0,
+   1
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   21,
+   0,
+   1
+  ],
+  [
+   2,
+   0,
+   0,
+   1,
+   6,
+   1,
+   0,
+   3,
+   116,
+   0
+  ],
+  [
+   4,
+   0,
+   0,
+   17,
+   4,
+   4,
+   33,
+   0,
+   0,
+   296
+  ]
+ ],
+ "ours_recall_1.0": [
+  97.9,
+  86.4,
+  85.7,
+  94.9,
+  95.9,
+  94.9,
+  95.7,
+  92.0,
+  96.9,
+  92.5
+ ],
+ "ours_macroF1_1.0": 92.59,
+ "ours_cm_1.0": [
+  [
+   139,
+   0,
+   0,
+   0,
+   2,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   19,
+   0,
+   0,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   36,
+   0,
+   2,
+   3,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   1,
+   2,
+   1,
+   637,
+   5,
+   0,
+   20,
+   0,
+   0,
+   5
+  ],
+  [
+   3,
+   1,
+   1,
+   4,
+   533,
+   5,
+   4,
+   2,
+   0,
+   3
+  ],
+  [
+   3,
+   0,
+   5,
+   3,
+   7,
+   507,
+   4,
+   0,
+   4,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   22,
+   2,
+   4,
+   639,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   23,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   0,
+   1,
+   125,
+   0
+  ],
+  [
+   2,
+   1,
+   0,
+   7,
+   5,
+   0,
+   12,
+   0,
+   0,
+   331
+  ]
+ ],
+ "semc_ft10": {
+  "ResNet-50": {
+   "drift_1": 86.6,
+   "drift_2": 84.7,
+   "drift_3": 81.5,
+   "drift_4": 79.8,
+   "drift_5": 76.5,
+   "psf_1": 86.4,
+   "psf_2": 85.4,
+   "psf_3": 83.9,
+   "psf_4": 80.6,
+   "psf_5": 76.6,
+   "charging_1": 86.6,
+   "charging_2": 85.1,
+   "charging_3": 84.3,
+   "charging_4": 83.1,
+   "charging_5": 80.0,
+   "gain_1": 86.9,
+   "gain_2": 86.7,
+   "gain_3": 85.9,
+   "gain_4": 86.1,
+   "gain_5": 85.7,
+   "noise_1": 78.9,
+   "noise_2": 74.4,
+   "noise_3": 68.6,
+   "noise_4": 60.4,
+   "noise_5": 51.9
+  },
+  "ViT-S-16_sup_IN": {
+   "drift_1": 88.6,
+   "drift_2": 87.8,
+   "drift_3": 86.4,
+   "drift_4": 84.8,
+   "drift_5": 83.9,
+   "psf_1": 88.8,
+   "psf_2": 88.3,
+   "psf_3": 87.1,
+   "psf_4": 85.6,
+   "psf_5": 83.8,
+   "charging_1": 87.4,
+   "charging_2": 85.4,
+   "charging_3": 83.6,
+   "charging_4": 81.0,
+   "charging_5": 77.7,
+   "gain_1": 88.3,
+   "gain_2": 88.2,
+   "gain_3": 88.4,
+   "gain_4": 88.0,
+   "gain_5": 87.1,
+   "noise_1": 84.6,
+   "noise_2": 81.3,
+   "noise_3": 75.5,
+   "noise_4": 65.3,
+   "noise_5": 47.8
+  },
+  "DINO_ViT-S-16_IN": {
+   "drift_1": 89.5,
+   "drift_2": 88.2,
+   "drift_3": 87.0,
+   "drift_4": 85.9,
+   "drift_5": 84.7,
+   "psf_1": 89.7,
+   "psf_2": 89.5,
+   "psf_3": 87.2,
+   "psf_4": 82.9,
+   "psf_5": 78.1,
+   "charging_1": 88.8,
+   "charging_2": 88.2,
+   "charging_3": 87.0,
+   "charging_4": 85.8,
+   "charging_5": 83.8,
+   "gain_1": 89.5,
+   "gain_2": 89.5,
+   "gain_3": 89.6,
+   "gain_4": 89.4,
+   "gain_5": 88.9,
+   "noise_1": 85.3,
+   "noise_2": 80.8,
+   "noise_3": 74.6,
+   "noise_4": 67.3,
+   "noise_5": 58.6
+  },
+  "DINO-generic_SEM": {
+   "drift_1": 91.1,
+   "drift_2": 90.3,
+   "drift_3": 88.8,
+   "drift_4": 87.6,
+   "drift_5": 86.7,
+   "psf_1": 90.8,
+   "psf_2": 90.4,
+   "psf_3": 87.1,
+   "psf_4": 83.1,
+   "psf_5": 79.5,
+   "charging_1": 89.6,
+   "charging_2": 88.2,
+   "charging_3": 87.4,
+   "charging_4": 85.3,
+   "charging_5": 83.4,
+   "gain_1": 90.7,
+   "gain_2": 90.5,
+   "gain_3": 91.0,
+   "gain_4": 90.7,
+   "gain_5": 89.9,
+   "noise_1": 83.8,
+   "noise_2": 78.6,
+   "noise_3": 70.0,
+   "noise_4": 61.7,
+   "noise_5": 50.4
+  },
+  "Ours_DINO-physics_SEM": {
+   "drift_1": 90.3,
+   "drift_2": 90.0,
+   "drift_3": 90.2,
+   "drift_4": 89.8,
+   "drift_5": 89.5,
+   "psf_1": 90.1,
+   "psf_2": 89.9,
+   "psf_3": 89.2,
+   "psf_4": 88.6,
+   "psf_5": 86.9,
+   "charging_1": 90.1,
+   "charging_2": 89.9,
+   "charging_3": 89.3,
+   "charging_4": 89.3,
+   "charging_5": 88.7,
+   "gain_1": 90.2,
+   "gain_2": 90.3,
+   "gain_3": 90.1,
+   "gain_4": 89.9,
+   "gain_5": 89.8,
+   "noise_1": 89.6,
+   "noise_2": 88.9,
+   "noise_3": 87.3,
+   "noise_4": 85.3,
+   "noise_5": 81.3
+  }
+ },
+ "frozen_semc": {
+  "abl_generic_6": {
+   "mCA": 73.28,
+   "noise_5": 54.1,
+   "psf_5": 68.5,
+   "charging_5": 70.2,
+   "noise_mean": 63.2
+  },
+  "abl_no_charging_6": {
+   "mCA": 77.55,
+   "noise_5": 72.0,
+   "psf_5": 77.4,
+   "charging_5": 70.0,
+   "noise_mean": 76.3
+  },
+  "abl_no_drift_6": {
+   "mCA": 78.46,
+   "noise_5": 71.6,
+   "psf_5": 77.7,
+   "charging_5": 78.0,
+   "noise_mean": 76.3
+  },
+  "abl_no_gain_6": {
+   "mCA": 78.57,
+   "noise_5": 71.4,
+   "psf_5": 77.5,
+   "charging_5": 77.9,
+   "noise_mean": 76.2
+  },
+  "abl_no_noise_6": {
+   "mCA": 75.4,
+   "noise_5": 55.3,
+   "psf_5": 76.4,
+   "charging_5": 77.0,
+   "noise_mean": 64.2
+  },
+  "abl_no_psf_6": {
+   "mCA": 78.4,
+   "noise_5": 71.8,
+   "psf_5": 72.4,
+   "charging_5": 78.4,
+   "noise_mean": 76.3
+  },
+  "abl_physics_6": {
+   "mCA": 78.31,
+   "noise_5": 71.2,
+   "psf_5": 77.7,
+   "charging_5": 77.5,
+   "noise_mean": 75.8
+  },
+  "dino_generic": {
+   "mCA": 79.21,
+   "noise_5": 51.5,
+   "psf_5": 75.9,
+   "charging_5": 77.7,
+   "noise_mean": 68.0
+  },
+  "dino_physics": {
+   "mCA": 83.05,
+   "noise_5": 79.3,
+   "psf_5": 82.3,
+   "charging_5": 83.5,
+   "noise_mean": 81.8
+  },
+  "DINO_ViT-S-16_IN": {
+   "mCA": 70.07,
+   "noise_5": 49.5,
+   "psf_5": 67.9,
+   "charging_5": 66.4,
+   "noise_mean": 59.8
+  },
+  "ViT-S-16_sup_IN": {
+   "mCA": 64.98,
+   "noise_5": 46.1,
+   "psf_5": 63.4,
+   "charging_5": 58.0,
+   "noise_mean": 58.4
+  }
+ },
+ "pretrain_abl_generic_6": {
+  "epochs": 6,
+  "first_loss": 10.8,
+  "last_loss": 9.95,
+  "knn": {},
+  "feat_std": [
+   0.042
+  ],
+  "hours": 1.2
+ },
+ "pretrain_abl_no_charging_6": {
+  "epochs": 6,
+  "first_loss": 10.89,
+  "last_loss": 10.3,
+  "knn": {},
+  "feat_std": [
+   0.042
+  ],
+  "hours": 1.24
+ },
+ "pretrain_abl_no_drift_6": {
+  "epochs": 6,
+  "first_loss": 10.91,
+  "last_loss": 10.32,
+  "knn": {},
+  "feat_std": [
+   0.042
+  ],
+  "hours": 1.25
+ },
+ "pretrain_abl_no_gain_6": {
+  "epochs": 6,
+  "first_loss": 10.91,
+  "last_loss": 10.33,
+  "knn": {},
+  "feat_std": [
+   0.042
+  ],
+  "hours": 1.25
+ },
+ "pretrain_abl_no_noise_6": {
+  "epochs": 6,
+  "first_loss": 10.87,
+  "last_loss": 10.12,
+  "knn": {},
+  "feat_std": [
+   0.042
+  ],
+  "hours": 1.25
+ },
+ "pretrain_abl_no_psf_6": {
+  "epochs": 6,
+  "first_loss": 10.9,
+  "last_loss": 10.33,
+  "knn": {},
+  "feat_std": [
+   0.042
+  ],
+  "hours": 1.25
+ },
+ "pretrain_abl_physics_6": {
+  "epochs": 6,
+  "first_loss": 10.92,
+  "last_loss": 10.33,
+  "knn": {},
+  "feat_std": [
+   0.042
+  ],
+  "hours": 1.25
+ },
+ "pretrain_dino_generic": {
+  "epochs": 30,
+  "first_loss": 10.8,
+  "last_loss": 4.71,
+  "knn": {},
+  "feat_std": [
+   0.047
+  ],
+  "hours": 26.66
+ },
+ "pretrain_dino_physics": {
+  "epochs": 30,
+  "first_loss": 10.92,
+  "last_loss": 5.65,
+  "knn": {},
+  "feat_std": [
+   0.047
+  ],
+  "hours": 27.85
+ },
+ "ft_minutes": {
+  "ConvNeXt-T_0.01_0": 1.64,
+  "ConvNeXt-T_0.05_0": 3.61,
+  "DINO-generic_SEM_0.01_0": 0.84,
+  "DINO-generic_SEM_0.01_1": 0.84,
+  "DINO-generic_SEM_0.05_0": 1.84,
+  "DINO-generic_SEM_0.05_1": 1.85,
+  "DINO-generic_SEM_0.1_0": 2.42,
+  "DINO-generic_SEM_1.0_0": 4.97,
+  "DINO_ViT-S-16_IN_0.01_0": 0.84,
+  "DINO_ViT-S-16_IN_0.01_1": 0.84,
+  "DINO_ViT-S-16_IN_0.05_0": 1.84,
+  "DINO_ViT-S-16_IN_0.05_1": 1.85,
+  "DINO_ViT-S-16_IN_0.1_0": 2.42,
+  "DINO_ViT-S-16_IN_1.0_0": 4.97,
+  "EfficientNet-B0_0.01_0": 2.8,
+  "EfficientNet-B0_0.05_0": 6.16,
+  "Inception-v3_0.01_0": 5.62,
+  "Inception-v3_0.05_0": 12.35,
+  "Ours_DINO-physics_SEM_0.01_0": 0.84,
+  "Ours_DINO-physics_SEM_0.01_1": 0.84,
+  "Ours_DINO-physics_SEM_0.05_0": 1.85,
+  "Ours_DINO-physics_SEM_0.05_1": 1.85,
+  "Ours_DINO-physics_SEM_0.1_0": 2.42,
+  "Ours_DINO-physics_SEM_1.0_0": 4.97,
+  "ResNet-50_0.01_0": 4.54,
+  "ResNet-50_0.05_0": 9.99,
+  "ResNet-50_0.1_0": 13.05,
+  "ViT-S-16_sup_IN_0.01_0": 0.84,
+  "ViT-S-16_sup_IN_0.01_1": 0.84,
+  "ViT-S-16_sup_IN_0.05_0": 1.84,
+  "ViT-S-16_sup_IN_0.05_1": 1.85,
+  "ViT-S-16_sup_IN_0.1_0": 2.42,
+  "ViT-S-16_sup_IN_0.1_1": 2.41,
+  "ViT-S-16_sup_IN_1.0_0": 4.98
+ },
+ "ft_total_hours": 1.89,
+ "pretrain_total_hours": 63.2,
+ "morph_synthetic_keys": [
+  "classical",
+  "sev",
+  "classical_time_s",
+  "scratch_8_0",
+  "scratch_8_0_time_s",
+  "scratch_8_1",
+  "scratch_8_1_time_s",
+  "scratch_8_2",
+  "scratch_8_2_time_s",
+  "scratch_32_0",
+  "scratch_32_0_time_s",
+  "scratch_32_1",
+  "scratch_32_1_time_s",
+  "scratch_32_2",
+  "scratch_32_2_time_s",
+  "scratch_128_0",
+  "scratch_128_0_time_s",
+  "scratch_128_1",
+  "scratch_128_1_time_s",
+  "scratch_128_2",
+  "scratch_128_2_time_s",
+  "dino_in_8_0",
+  "dino_in_8_0_time_s",
+  "dino_in_8_1",
+  "dino_in_8_1_time_s",
+  "dino_in_8_2",
+  "dino_in_8_2_time_s",
+  "dino_in_32_0",
+  "dino_in_32_0_time_s",
+  "dino_in_32_1",
+  "dino_in_32_1_time_s",
+  "dino_in_32_2",
+  "dino_in_32_2_time_s",
+  "dino_in_128_0",
+  "dino_in_128_0_time_s",
+  "dino_in_128_1",
+  "dino_in_128_1_time_s",
+  "dino_in_128_2",
+  "dino_in_128_2_time_s",
+  "ours_8_0"
+ ],
+ "morph_real_particles_keys": "list"
+}

@@ -1,0 +1,32 @@
+{
+ "arch": "vit_small_patch16_224.dino",
+ "frac": 1.0,
+ "seed": 0,
+ "n_train": 15227,
+ "epochs": 5,
+ "train_time_s": 298.22552275657654,
+ "infer_ms_per_img": 1.1860303815145283,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0221053180815298
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7007766647680902
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.6192044942690853
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.5682601757693392
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.5402144417481081
+  }
+ ],
+ "params_M": 21.669514
+}

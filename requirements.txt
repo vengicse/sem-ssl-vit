@@ -1,0 +1,12 @@
+# torch / torchvision come from the RunPod PyTorch image (CUDA build)
+timm==1.0.30
+numpy<2.3
+scipy>=1.11
+scikit-image>=0.22
+scikit-learn>=1.4
+pillow>=10
+matplotlib>=3.8
+pandas>=2.0
+tabulate>=0.9
+easyocr==1.7.2
+python-docx>=1.1

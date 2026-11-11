@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Test accuracy (%) after end-to-end fine-tuning with 1, 5, 10 and 100% of the training labels (mean ± s.d. over the seeds that were run; † = single seed because of the compute budget; identical recipe for every model). Macro-F1 at 1% and expected calibration error (ECE, %) at 10%.}
+\label{tab:t3_main}
+\begin{tabular}{lllllll}
+\toprule
+Model & Acc 1\% & Acc 5\% & Acc 10\% & Acc 100\% & Macro-F1 1\% & ECE 10\% \\
+\midrule
+ResNet-50 & 76.93† & 84.87† & 86.69† & – & 63.76 & 6.43 \\
+Inception-v3 & 72.74† & 83.22† & – & – & 59.71 & – \\
+EfficientNet-B0 & 68.35† & 80.74† & – & – & 54.04 & – \\
+ConvNeXt-T & 79.44† & 86.59† & – & – & 68.53 & – \\
+ViT-S/16 (sup. IN) & 78.87 ± 0.13 & 86.77 ± 0.43 & 88.47 ± 0.18 & 94.09† & 66.69 ± 0.35 & 5.05 ± 0.11 \\
+DINO ViT-S/16 (IN) & 80.04 ± 0.54 & 88.04 ± 0.20 & 89.45† & 95.52† & 67.10 ± 1.28 & 6.22 \\
+DINO-generic (SEM) & 82.97 ± 0.18 & 89.04 ± 0.99 & 90.69† & 95.55† & 71.90 ± 0.40 & 6.17 \\
+Ours: DINO-physics (SEM) & 83.13 ± 0.90 & 88.74 ± 0.74 & 90.34† & 94.98† & 70.90 ± 1.93 & 5.94 \\
+\bottomrule
+\end{tabular}
+\end{table}

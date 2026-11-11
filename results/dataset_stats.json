@@ -1,0 +1,51 @@
+{
+ "source": "pod logs/run.log (data stage) and test labels saved with the fine-tuning predictions",
+ "classes": [
+  "Biological",
+  "Fibres",
+  "Films_Coated_Surface",
+  "MEMS_devices_and_electrodes",
+  "Nanowires",
+  "Particles",
+  "Patterned_surface",
+  "Porous_Sponge",
+  "Powder",
+  "Tips"
+ ],
+ "images_per_class": [
+  962,
+  150,
+  309,
+  4583,
+  3815,
+  3905,
+  4752,
+  174,
+  898,
+  1621
+ ],
+ "test_per_class": [
+  142,
+  22,
+  42,
+  671,
+  556,
+  534,
+  668,
+  25,
+  129,
+  358
+ ],
+ "n_images": 21169,
+ "n_dup_groups": 17903,
+ "n_label_conflict_groups": 53,
+ "infobar_found_pct": 98.4,
+ "n_train_budget_seed0": {
+  "0.01": 159,
+  "0.05": 766,
+  "0.1": 1527,
+  "1.0": 15227
+ },
+ "n_test": 3147,
+ "n_val": 2795
+}

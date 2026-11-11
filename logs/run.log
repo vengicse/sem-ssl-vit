@@ -1,0 +1,281 @@
+nohup: ignoring input
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+httpcore 1.0.5 requires h11<0.15,>=0.13, but you have h11 0.16.0 which is incompatible.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+[notice] A new release of pip is available: 24.2 -> 26.3
+[notice] To update, run: python -m pip install --upgrade pip
+name, memory.total [MiB]
+Tesla V100-SXM2-16GB, 16384 MiB
+device cuda  smoke=False  data=/workspace/data  results=/workspace/sem-ssl-vit/results
+=== stage data
+  MEMS_devices_and_electrodes.tar: ok (md5 98a988b167ff25528b80ab8bf7585c04)
+  Particles.tar: ok (md5 61266e91981d0a0b4f7c6f15061cffc9)
+  Patterned_surface.tar: ok (md5 44d3964bef4ee7e84ba2f99c84036e9c)
+  Porous_Sponge.tar: ok (md5 fc71dc2603d6255b28aa6954a0190665)
+  Powder.tar: ok (md5 8209599720c2b5e0cfde6a985d49d0a3)
+  Tips.tar: ok (md5 e5a5bc0fbc7f3339b4ab5f4229991290)
+  Nanowires.tar: ok (md5 bc51bd48acbb693e5f34e0c9f882cf3e)
+  Biological.tar: ok (md5 296cd6be5ac97b2203e807e9552d9aeb)
+  Fibres.tar: ok (md5 c942e19b8ab221d3c700f44a0c67b306)
+  Films_Coated_Surface.tar: ok (md5 3c2e6cb914e1864855d9c3805ef47913)
+  Biological: 962 images
+  Fibres: 150 images
+  Films_Coated_Surface: 309 images
+  MEMS_devices_and_electrodes: 4583 images
+  Nanowires: 3815 images
+  Particles: 3905 images
+  Patterned_surface: 4752 images
+  Porous_Sponge: 174 images
+  Powder: 898 images
+  Tips: 1621 images
+  21169 images, 17903 duplicate groups, 53 groups with conflicting labels
+  info bar detected in 98.4% of images
+=== stage data done in 625s
+=== stage pretrain
+[pretrain] dino_physics: 40 epochs, physics=True, ops=None
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  [dino_physics] ep 1/40 loss 10.9150 time_s 214.4667
+  [dino_physics] ep 2/40 loss 10.5541 time_s 429.3732
+  [dino_physics] ep 3/40 loss 9.7008 time_s 643.4150
+nohup: ignoring input
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+[notice] A new release of pip is available: 24.2 -> 26.3
+[notice] To update, run: python -m pip install --upgrade pip
+name, memory.total [MiB]
+Tesla V100-SXM2-16GB, 16384 MiB
+device cuda  smoke=False  data=/workspace/data  results=/workspace/sem-ssl-vit/results
+=== stage data
+data already prepared
+=== stage data done in 0s
+=== stage pretrain
+[pretrain] dino_physics: 30 epochs, physics=True, ops=None
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  [dino_physics] ep 1/30 loss 10.9150 time_s 214.2694
+  [dino_physics] ep 2/30 loss 10.5544 time_s 429.1732
+  [dino_physics] ep 3/30 loss 9.7091 time_s 644.2447
+  [dino_physics] ep 4/30 loss 7.1221 time_s 857.9774
+  [dino_physics] ep 5/30 loss 4.5159 time_s 1071.5254
+  [dino_physics] ep 6/30 loss 4.8528 time_s 1286.4975
+  [dino_physics] ep 7/30 loss 5.3890 time_s 1501.5621
+  [dino_physics] ep 8/30 loss 5.5300 time_s 1717.7680
+  [dino_physics] ep 9/30 loss 5.5041 time_s 1933.5379
+  [dino_physics] ep 10/30 loss 5.4449 time_s 2149.0392 knn_val_acc 0.8601 feat_std 0.0465
+  [dino_physics] ep 11/30 loss 5.3933 time_s 2370.1274
+  [dino_physics] ep 12/30 loss 5.3757 time_s 2584.8755
+  [dino_physics] ep 13/30 loss 5.3756 time_s 2799.6950
+  [dino_physics] ep 14/30 loss 5.3660 time_s 3014.5336
+  [dino_physics] ep 15/30 loss 5.3603 time_s 3229.3029
+  [dino_physics] ep 16/30 loss 5.3573 time_s 3445.3847
+  [dino_physics] ep 17/30 loss 5.3569 time_s 3661.5070
+  [dino_physics] ep 18/30 loss 5.3521 time_s 3878.8272
+  [dino_physics] ep 19/30 loss 5.3632 time_s 4095.8908
+  [dino_physics] ep 20/30 loss 5.3700 time_s 4312.2642 knn_val_acc 0.8873 feat_std 0.0467
+  [dino_physics] ep 21/30 loss 5.3760 time_s 4534.3447
+  [dino_physics] ep 22/30 loss 5.3965 time_s 4750.1184
+  [dino_physics] ep 23/30 loss 5.4061 time_s 4965.9474
+  [dino_physics] ep 24/30 loss 5.4255 time_s 5182.0652
+  [dino_physics] ep 25/30 loss 5.4553 time_s 5399.4911
+  [dino_physics] ep 26/30 loss 5.4863 time_s 5616.2732
+  [dino_physics] ep 27/30 loss 5.5194 time_s 5833.9634
+  [dino_physics] ep 28/30 loss 5.5605 time_s 6049.6360
+  [dino_physics] ep 29/30 loss 5.5960 time_s 6264.6822
+  [dino_physics] ep 30/30 loss 5.6468 time_s 6479.6807 knn_val_acc 0.8898 feat_std 0.0467
+[pretrain] dino_generic: 30 epochs, physics=False, ops=None
+  [dino_generic] ep 1/30 loss 10.8013 time_s 205.4627
+  [dino_generic] ep 2/30 loss 10.4210 time_s 411.1995
+  [dino_generic] ep 3/30 loss 9.4141 time_s 617.5100
+  [dino_generic] ep 4/30 loss 7.5843 time_s 824.0972
+  [dino_generic] ep 5/30 loss 4.7890 time_s 1030.6795
+  [dino_generic] ep 6/30 loss 4.3358 time_s 1237.5727
+  [dino_generic] ep 7/30 loss 4.6913 time_s 1443.3112
+  [dino_generic] ep 8/30 loss 4.8421 time_s 1649.4913
+  [dino_generic] ep 9/30 loss 4.7841 time_s 1855.7607
+  [dino_generic] ep 10/30 loss 4.6465 time_s 2062.1814 knn_val_acc 0.8794 feat_std 0.0469
+  [dino_generic] ep 11/30 loss 4.5496 time_s 2274.0192
+  [dino_generic] ep 12/30 loss 4.5325 time_s 2480.1134
+  [dino_generic] ep 13/30 loss 4.5183 time_s 2685.3384
+  [dino_generic] ep 14/30 loss 4.4955 time_s 2890.6868
+  [dino_generic] ep 15/30 loss 4.4860 time_s 3096.7345
+  [dino_generic] ep 16/30 loss 4.4665 time_s 3303.8637
+  [dino_generic] ep 17/30 loss 4.4439 time_s 3510.0879
+  [dino_generic] ep 18/30 loss 4.4392 time_s 3716.2964
+  [dino_generic] ep 19/30 loss 4.4354 time_s 3921.6171
+  [dino_generic] ep 20/30 loss 4.4328 time_s 4126.8521 knn_val_acc 0.8980 feat_std 0.0471
+  [dino_generic] ep 21/30 loss 4.4414 time_s 4338.3897
+  [dino_generic] ep 22/30 loss 4.4452 time_s 4544.3875
+  [dino_generic] ep 23/30 loss 4.4577 time_s 4749.6876
+  [dino_generic] ep 24/30 loss 4.4793 time_s 4954.9457
+  [dino_generic] ep 25/30 loss 4.5046 time_s 5160.4174
+  [dino_generic] ep 26/30 loss 4.5287 time_s 5367.0059
+  [dino_generic] ep 27/30 loss 4.5642 time_s 5572.4900
+  [dino_generic] ep 28/30 loss 4.6075 time_s 5777.9611
+  [dino_generic] ep 29/30 loss 4.6553 time_s 5983.3467
+  [dino_generic] ep 30/30 loss 4.7125 time_s 6188.6991 knn_val_acc 0.8991 feat_std 0.0471
+[pretrain] abl_physics_6: 6 epochs, physics=True, ops=None
+  [abl_physics_6] ep 1/6 loss 10.9165 time_s 214.4568
+  [abl_physics_6] ep 2/6 loss 10.6614 time_s 430.3603
+  [abl_physics_6] ep 3/6 loss 10.4657 time_s 645.3372
+  [abl_physics_6] ep 4/6 loss 10.2856 time_s 860.0343
+  [abl_physics_6] ep 5/6 loss 10.2398 time_s 1074.5730
+  [abl_physics_6] ep 6/6 loss 10.3307 time_s 1290.5590 knn_val_acc 0.8701 feat_std 0.0418
+[pretrain] abl_generic_6: 6 epochs, physics=False, ops=None
+  [abl_generic_6] ep 1/6 loss 10.8026 time_s 206.2356
+  [abl_generic_6] ep 2/6 loss 10.6034 time_s 412.4079
+  [abl_generic_6] ep 3/6 loss 10.2966 time_s 618.4850
+  [abl_generic_6] ep 4/6 loss 9.9358 time_s 824.2637
+  [abl_generic_6] ep 5/6 loss 9.8363 time_s 1030.0766
+  [abl_generic_6] ep 6/6 loss 9.9549 time_s 1237.7562 knn_val_acc 0.8823 feat_std 0.0421
+[pretrain] abl_no_drift_6: 6 epochs, physics=True, ops=['psf', 'charging', 'gain', 'noise']
+  [abl_no_drift_6] ep 1/6 loss 10.9057 time_s 213.8286
+  [abl_no_drift_6] ep 2/6 loss 10.6568 time_s 427.8610
+  [abl_no_drift_6] ep 3/6 loss 10.4645 time_s 641.6205
+  [abl_no_drift_6] ep 4/6 loss 10.2819 time_s 855.5837
+  [abl_no_drift_6] ep 5/6 loss 10.2271 time_s 1070.0213
+  [abl_no_drift_6] ep 6/6 loss 10.3217 time_s 1285.8288 knn_val_acc 0.8730 feat_std 0.0418
+[pretrain] abl_no_psf_6: 6 epochs, physics=True, ops=['drift', 'charging', 'gain', 'noise']
+  [abl_no_psf_6] ep 1/6 loss 10.8977 time_s 214.0972
+  [abl_no_psf_6] ep 2/6 loss 10.6515 time_s 428.1952
+  [abl_no_psf_6] ep 3/6 loss 10.4602 time_s 641.8624
+  [abl_no_psf_6] ep 4/6 loss 10.2833 time_s 855.4946
+  [abl_no_psf_6] ep 5/6 loss 10.2379 time_s 1069.2477
+  [abl_no_psf_6] ep 6/6 loss 10.3272 time_s 1283.7451 knn_val_acc 0.8755 feat_std 0.0418
+[pretrain] abl_no_charging_6: 6 epochs, physics=True, ops=['drift', 'psf', 'gain', 'noise']
+  [abl_no_charging_6] ep 1/6 loss 10.8892 time_s 211.5898
+  [abl_no_charging_6] ep 2/6 loss 10.6480 time_s 423.4108
+  [abl_no_charging_6] ep 3/6 loss 10.4555 time_s 635.2716
+  [abl_no_charging_6] ep 4/6 loss 10.2693 time_s 846.7640
+  [abl_no_charging_6] ep 5/6 loss 10.2075 time_s 1059.1460
+  [abl_no_charging_6] ep 6/6 loss 10.3043 time_s 1272.8560 knn_val_acc 0.8762 feat_std 0.0417
+[pretrain] abl_no_gain_6: 6 epochs, physics=True, ops=['drift', 'psf', 'charging', 'noise']
+  [abl_no_gain_6] ep 1/6 loss 10.9120 time_s 214.8393
+  [abl_no_gain_6] ep 2/6 loss 10.6581 time_s 429.7949
+  [abl_no_gain_6] ep 3/6 loss 10.4604 time_s 644.8390
+  [abl_no_gain_6] ep 4/6 loss 10.2855 time_s 859.1515
+  [abl_no_gain_6] ep 5/6 loss 10.2442 time_s 1073.4856
+  [abl_no_gain_6] ep 6/6 loss 10.3314 time_s 1288.5872 knn_val_acc 0.8726 feat_std 0.0418
+[pretrain] abl_no_noise_6: 6 epochs, physics=True, ops=['drift', 'psf', 'charging', 'gain']
+  [abl_no_noise_6] ep 1/6 loss 10.8697 time_s 215.2025
+  [abl_no_noise_6] ep 2/6 loss 10.6360 time_s 430.8124
+  [abl_no_noise_6] ep 3/6 loss 10.4129 time_s 645.5164
+  [abl_no_noise_6] ep 4/6 loss 10.0991 time_s 859.8672
+  [abl_no_noise_6] ep 5/6 loss 9.9946 time_s 1074.4734
+  [abl_no_noise_6] ep 6/6 loss 10.1159 time_s 1291.8903 knn_val_acc 0.8776 feat_std 0.0419
+=== stage pretrain done in 21702s
+=== stage frozen
+[frozen] DINO ViT-S/16 (IN): knn@1% 0.7667 lin@1% 0.6473
+[frozen] ViT-S/16 (sup. IN): knn@1% 0.7329 lin@1% 0.5942
+/workspace/sem-ssl-vit/src/train.py:143: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  m.load_state_dict(torch.load(ckpt, map_location="cpu"), strict=True)
+[frozen] dino_physics: knn@1% 0.8373 lin@1% 0.8217
+[frozen] dino_generic: knn@1% 0.8230 lin@1% 0.8088
+[frozen] abl_physics_6: knn@1% 0.8013 lin@1% 0.7327
+[frozen] abl_generic_6: knn@1% 0.7867 lin@1% 0.7022
+[frozen] abl_no_drift_6: knn@1% 0.8017 lin@1% 0.7298
+[frozen] abl_no_psf_6: knn@1% 0.8002 lin@1% 0.7312
+[frozen] abl_no_charging_6: knn@1% 0.8031 lin@1% 0.7333
+[frozen] abl_no_gain_6: knn@1% 0.8012 lin@1% 0.7336
+[frozen] abl_no_noise_6: knn@1% 0.7908 lin@1% 0.7181
+=== stage frozen done in 1542s
+=== stage finetune
+[finetune] ResNet-50 frac=0.01 seed=0: acc 0.7693 (273s, 100 ep, n=159)
+[finetune] Inception-v3 frac=0.01 seed=0: acc 0.7274 (337s, 100 ep, n=159)
+[finetune] EfficientNet-B0 frac=0.01 seed=0: acc 0.6835 (168s, 100 ep, n=159)
+[finetune] ConvNeXt-T frac=0.01 seed=0: acc 0.7944 (99s, 100 ep, n=159)
+[finetune] ViT-S/16 (sup. IN) frac=0.01 seed=0: acc 0.7877 (50s, 100 ep, n=159)
+[finetune] DINO ViT-S/16 (IN) frac=0.01 seed=0: acc 0.7966 (50s, 100 ep, n=159)
+/workspace/sem-ssl-vit/src/train.py:28: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  sd = torch.load(ckpt, map_location="cpu")
+[finetune] DINO-generic (SEM) frac=0.01 seed=0: acc 0.8310 (50s, 100 ep, n=159)
+[finetune] Ours: DINO-physics (SEM) frac=0.01 seed=0: acc 0.8249 (50s, 100 ep, n=159)
+[finetune] ResNet-50 frac=0.05 seed=0: acc 0.8487 (599s, 40 ep, n=766)
+[finetune] Inception-v3 frac=0.05 seed=0: acc 0.8322 (741s, 40 ep, n=766)
+[finetune] EfficientNet-B0 frac=0.05 seed=0: acc 0.8074 (370s, 40 ep, n=766)
+[finetune] ConvNeXt-T frac=0.05 seed=0: acc 0.8659 (216s, 40 ep, n=766)
+[finetune] ViT-S/16 (sup. IN) frac=0.05 seed=0: acc 0.8707 (110s, 40 ep, n=766)
+[finetune] DINO ViT-S/16 (IN) frac=0.05 seed=0: acc 0.8818 (111s, 40 ep, n=766)
+[finetune] DINO-generic (SEM) frac=0.05 seed=0: acc 0.8974 (111s, 40 ep, n=766)
+[finetune] Ours: DINO-physics (SEM) frac=0.05 seed=0: acc 0.8926 (111s, 40 ep, n=766)
+[finetune] ResNet-50 frac=0.1 seed=0: acc 0.8669 (783s, 25 ep, n=1527)
+device cuda  smoke=False  data=/workspace/data  results=/workspace/sem-ssl-vit/results
+=== stage finetune
+[finetune] ViT-S/16 (sup. IN) frac=0.1 seed=0: acc 0.8859 (145s, 25 ep, n=1527)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[finetune] DINO ViT-S/16 (IN) frac=0.1 seed=0: acc 0.8945 (145s, 25 ep, n=1527)
+/workspace/sem-ssl-vit/src/train.py:28: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  sd = torch.load(ckpt, map_location="cpu")
+[finetune] DINO-generic (SEM) frac=0.1 seed=0: acc 0.9069 (145s, 25 ep, n=1527)
+[finetune] Ours: DINO-physics (SEM) frac=0.1 seed=0: acc 0.9034 (145s, 25 ep, n=1527)
+[finetune] ViT-S/16 (sup. IN) frac=1.0 seed=0: acc 0.9409 (299s, 5 ep, n=15227)
+[finetune] DINO ViT-S/16 (IN) frac=1.0 seed=0: acc 0.9552 (298s, 5 ep, n=15227)
+[finetune] DINO-generic (SEM) frac=1.0 seed=0: acc 0.9555 (298s, 5 ep, n=15227)
+[finetune] Ours: DINO-physics (SEM) frac=1.0 seed=0: acc 0.9498 (298s, 5 ep, n=15227)
+=== stage finetune done in 2195s
+STEP_EXIT 0 :: --stages finetune --only ViT-S/16 (sup. IN) DINO ViT-S/16 (IN) DINO-generic (SEM) Ours: DINO-physics (SEM)
+device cuda  smoke=False  data=/workspace/data  results=/workspace/sem-ssl-vit/results
+=== stage morph
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/workspace/sem-ssl-vit/run_all.py:147: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  m.load_state_dict(torch.load(ck, map_location="cpu"))
+    seg scratch n=8 seed=0: dice 0.717 f1 0.485
+    seg scratch n=8 seed=1: dice 0.722 f1 0.492
+    seg scratch n=8 seed=2: dice 0.716 f1 0.488
+    seg scratch n=32 seed=0: dice 0.743 f1 0.510
+    seg scratch n=32 seed=1: dice 0.745 f1 0.509
+    seg scratch n=32 seed=2: dice 0.744 f1 0.507
+    seg scratch n=128 seed=0: dice 0.746 f1 0.508
+    seg scratch n=128 seed=1: dice 0.752 f1 0.512
+    seg scratch n=128 seed=2: dice 0.748 f1 0.508
+    seg dino_in n=8 seed=0: dice 0.704 f1 0.431
+    seg dino_in n=8 seed=1: dice 0.700 f1 0.427
+    seg dino_in n=8 seed=2: dice 0.702 f1 0.429
+    seg dino_in n=32 seed=0: dice 0.773 f1 0.550
+    seg dino_in n=32 seed=1: dice 0.774 f1 0.549
+    seg dino_in n=32 seed=2: dice 0.769 f1 0.546
+    seg dino_in n=128 seed=0: dice 0.785 f1 0.543
+    seg dino_in n=128 seed=1: dice 0.786 f1 0.560
+    seg dino_in n=128 seed=2: dice 0.786 f1 0.554
+    seg ours n=8 seed=0: dice 0.684 f1 0.436
+    seg ours n=8 seed=1: dice 0.685 f1 0.431
+    seg ours n=8 seed=2: dice 0.686 f1 0.431
+    seg ours n=32 seed=0: dice 0.723 f1 0.541
+    seg ours n=32 seed=1: dice 0.752 f1 0.538
+    seg ours n=32 seed=2: dice 0.748 f1 0.549
+    seg ours n=128 seed=0: dice 0.774 f1 0.544
+    seg ours n=128 seed=1: dice 0.780 f1 0.559
+    seg ours n=128 seed=2: dice 0.778 f1 0.565
+/workspace/sem-ssl-vit/run_all.py:179: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  n.load_state_dict(torch.load(out / f"segnet_{k}.pt", map_location=d))
+Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+/workspace/sem-ssl-vit/src/morph.py:264: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  x = torch.stack([torch.from_numpy(i).float().div(255) for i in imgs_u8[s:s + bs]]).unsqueeze(1).to(device)
+/workspace/sem-ssl-vit/src/morph.py:153: FutureWarning: `RegionProperties.major_axis_length` is deprecated starting in version 0.26 and will be removed in version 2.0. Use `RegionProperties.axis_major_length` instead. 
+  out.append({"d": 2 * np.sqrt(r.area / np.pi), "ar": r.major_axis_length / max(r.minor_axis_length, 1e-6),
+/workspace/sem-ssl-vit/src/morph.py:153: FutureWarning: `RegionProperties.minor_axis_length` is deprecated starting in version 0.26 and will be removed in version 2.0. Use `RegionProperties.axis_minor_length` instead. 
+  out.append({"d": 2 * np.sqrt(r.area / np.pi), "ar": r.major_axis_length / max(r.minor_axis_length, 1e-6),
+=== stage morph done in 7725s
+=== stage xai
+/workspace/sem-ssl-vit/run_all.py:228: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  m.load_state_dict(torch.load(p, map_location="cpu"))
+/workspace/sem-ssl-vit/src/train.py:143: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  m.load_state_dict(torch.load(ckpt, map_location="cpu"), strict=True)
+=== stage xai done in 17s
+STEP_EXIT 0 :: --stages morph xai
+device cuda  smoke=False  data=/workspace/data  results=/workspace/sem-ssl-vit/results
+=== stage finetune
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[finetune] ViT-S/16 (sup. IN) frac=0.01 seed=1: acc 0.7896 (51s, 100 ep, n=159)
+[finetune] DINO ViT-S/16 (IN) frac=0.01 seed=1: acc 0.8043 (50s, 100 ep, n=159)
+/workspace/sem-ssl-vit/src/train.py:28: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  sd = torch.load(ckpt, map_location="cpu")
+[finetune] DINO-generic (SEM) frac=0.01 seed=1: acc 0.8284 (50s, 100 ep, n=159)
+[finetune] Ours: DINO-physics (SEM) frac=0.01 seed=1: acc 0.8376 (50s, 100 ep, n=159)
+[finetune] ViT-S/16 (sup. IN) frac=0.05 seed=1: acc 0.8646 (111s, 40 ep, n=766)
+[finetune] DINO ViT-S/16 (IN) frac=0.05 seed=1: acc 0.8789 (111s, 40 ep, n=766)
+[finetune] DINO-generic (SEM) frac=0.05 seed=1: acc 0.8834 (111s, 40 ep, n=766)
+[finetune] Ours: DINO-physics (SEM) frac=0.05 seed=1: acc 0.8821 (111s, 40 ep, n=766)
+[finetune] ViT-S/16 (sup. IN) frac=0.1 seed=1: acc 0.8834 (145s, 25 ep, n=1527)
+STEP_EXIT 124 :: --stages finetune --only ViT-S/16 (sup. IN) DINO ViT-S/16 (IN) DINO-generic (SEM) Ours: DINO-physics (SEM)
+PIPELINE_EXIT 0
